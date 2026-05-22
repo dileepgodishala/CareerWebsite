@@ -218,6 +218,30 @@
     letter-spacing: -0.02em;
   }
 
+    .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--accent);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--bg);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .download-btn:hover {
+    background: var(--accent2);
+    transform: translateY(-2px);
+  }
+
   .nav-logo span { color: var(--accent); }
 
   .nav-links {
@@ -683,6 +707,8 @@
             <div class="meta-item"><span class="dot"></span>Hyderabad, India</div>
             <div class="meta-item"><span class="dot"></span><a href="https://www.linkedin.com/in/dileep-godishala/" target="_blank">LinkedIn ↗</a></div>
             <div class="meta-item"><span class="dot"></span><a href="https://github.com/dileepgodishala" target="_blank">GitHub ↗</a></div>
+            <div class="meta-item"><span class="dot"></span><a href="Dileep Kumar Godishala Resume.pdf" download class="download-btn">Download Resume</a></div>
+            
           </div>
           <p class="hero-summary">
             Experienced Senior QA Automation Engineer with deep expertise in Selenium WebDriver, Katalon Studio, Rest Assured API, and modern API testing tools including Postman and SOAP UI. Skilled in delivering high-quality software solutions through Agile and Waterfall methodologies, backed by strong problem-solving and analytical capabilities.
@@ -932,7 +958,7 @@
           <span class="tag">HTML</span>
           <span class="tag">CSS</span>
           <span class="tag">Bootstrap</span>
-          <span class="tag highlight">JavaScript</span>
+          <span class="tag">JavaScript</span>
           <span class="tag">OpenWeatherMap API</span>
         </div>
       </div>
